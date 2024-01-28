@@ -1,0 +1,114 @@
+<!DOCTYPE html> <! --  .Menciona que version trabaja -- >
+<html lang="en">
+<head> 
+    <meta charset="UTF-8"> <! -- indica la forma que se entienden TODOS los caracteres que existen -- >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TAQUERIA LA INGE 👩‍🎓</title> <! -- el nombre de la pagina -- >
+</head>
+<body>
+    <header>  <! -- aqui va la parte del logo , se hace de tipo matriz -- >
+        <img src="IMG/taco.jfif" alt="logo" width="150px"> <! -- al poner imagenes ponemos img/ y aparecera las imagenes que existen  -- >
+        <nav>
+            <ul>
+                <!-- aun no tengo enlaces :c -->
+                <a href="#"><li>Inicio</li></a> <! -- en a href es para ponerle una liga  -- >
+                <a href="#"><li>Acerca de</li></a>
+                <a href="#"><li>Menu</li></a>
+                <a href="#"><li>Contacto</li></a>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        
+        <section>
+            <h1>🌮Taqueria "LA INGE"👩‍🎓</h1>
+        <h2>Acerca de nosotros</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod magnam provident itaque quasi quia officiis rerum iste odio doloremque voluptatem sed in minima vero, eos soluta, laboriosam repudiandae ipsa molestias aliquid pariatur tempore porro, suscipit vel ea. Eos modi laboriosam vitae soluta amet nam tenetur natus recusandae, explicabo aut deleniti voluptate commodi excepturi, dignissimos sint laudantium blanditiis hic laborum officiis? Dignissimos ipsam fuga praesentium odit. Accusamus totam molestias architecto voluptatibus ea corrupti nostrum, incidunt odio enim! Dolores rerum in voluptas, aut deleniti harum ex id, facere doloribus modi laboriosam soluta officia inventore. Tempora id autem consequatur blanditiis ad rerum eum.</p>
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/XAe-ZfGabHA?si=VAKH-wCnGEojuE8Z" title="YouTube video player" frameborder="3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="0"></iframe> <hr> <!-- el hr es la linea larga que aparece en la pagina  -->
+        </section>
+        <section>
+        <!-- sera el estilo del menu  -->
+            <h2>Menu</h2>
+            <h3>Tacos</h3>
+            <!-- lista ordenada -->
+            <ol>
+                <li>Tacos de suadero..........................$15</li>
+                <li>Tacos de Pastor...........................$15
+                    <!-- lista desordenada -->
+                <ul>
+                    <li>con queso.............................$20</li>
+                </ul>
+                </li>
+                <li>Tacos de surtida..........................$18</li>
+                <li>Tacos de moronga..........................$17</li>
+                <li>Tacos de tripa............................$20</li>
+                
+            </ol>
+            <h3>Tacos Especiales</h3>
+            <!-- Lista descriptiva -->
+            <dl>
+                <dt>Campechanos</dt>
+                <dd>cualquier combinacion.................$23</dd>
+                <dt>Combinado</dt>
+                <dd>Al gusto................$25</dd>
+            </dl>
+            <h3>Ordena</h3>
+            <form action="" method="" name="Menu"> 
+                Nombre: <input type="text" name="Nombre" placeholder="Ejemplo: Yair" minlength="3" maxlength="10"
+                required>
+                Apellido: <input type="text" name="Apellido" placeholder="Ejemplo: Flores" minlength="3" maxlength="10"> <br>
+                Envio o recolección <br>
+                <input type="radio" name="Envio" value="si">Envio
+                <input type="radio" name="Envio" value="no">Local
+                <br>
+                Dirección: <input type="text" name="Dirección" placeholder="calle,num,alcaldia,CP"
+                size="80">
+                <br>
+                Telefono: <input type="tel" name="Telefono" minlength="10" maxlength="10"  value="55" >
+                <br>
+                Correo: <input type="email" name="Correo">
+                <br>
+                Deposito(anexa comprobante) <input type="file" name="comprobante">
+                <br>
+
+
+                <input type="submit" value="Ordena😋">
+                <input type="reset" value="Borrar😑">
+                <br>
+                Orden 1<br>
+                <select name="Orden1" id="Orden1">
+                    <option value="#">selecciona</option>
+                    <option value="suadero">suadero</option>
+                    <option value="Pastor">Pastor</option>
+                    <option value="surtida">surtida</option>
+                    <option value="moronga">moronga</option>
+                    <option value="tripa">tripa</option>
+
+                
+                    </option>
+
+                </select>
+                Numero: <input type="number" min="0" max="50">
+                
+
+                
+
+            </form>
+
+
+
+        
+
+        </section>
+        <article></article>
+        <aside></aside>
+
+
+    </main>
+
+    <footer>
+
+    </footer>    
+</body>
+</html>
